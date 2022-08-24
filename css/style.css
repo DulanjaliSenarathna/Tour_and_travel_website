@@ -365,6 +365,7 @@ box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
 
 .packages .box-container .box .content h3 i{
   color:var(--orange);
+  padding-right:1rem;
 }
 
 .packages .box-container .box .content p{
@@ -388,6 +389,40 @@ box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
   color:#666;
   font-size:1.5rem;
   text-decoration:line-through;
+}
+
+.services .box-container{
+  display:flex;
+  flex-wrap:wrap;
+  gap:1.5rem;
+}
+
+.services .box-container .box{
+  flex: 1 1 30rem;
+  border-radius: .5rem;
+  padding:1rem;
+  text-align:center;
+}
+
+.services .box-container .box i{
+  padding:1rem;
+  font-size:5rem;
+  color:var(--orange);
+}
+
+.services .box-container .box h3{
+  font-size:2.5rem;
+  color:#333;
+}
+
+.services .box-container .box p{
+  font-size:1.5rem;
+  color:#666;
+  padding:1rem 0;
+}
+
+.services .box-container .box:hover{
+  box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
 }
 /*Media queries*/
 @media (max-width:1200px){
