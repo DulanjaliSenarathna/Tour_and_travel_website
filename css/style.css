@@ -551,6 +551,10 @@ box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
   resize:none;
   width:100%;
 }
+
+.brand-container{
+  text-align:center;
+}
 /*Media queries*/
 @media (max-width:1200px){
 
